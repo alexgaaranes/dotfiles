@@ -1,0 +1,1 @@
+scripts/spotify_waybar.sh
