@@ -1,0 +1,95 @@
+* {
+	background-image: none;
+}
+
+window {
+	font-family: "JetBrains Mono", monospace;
+	font-size: 12px;
+	background-color: rgba(15,5,5,0.7);
+}
+
+
+button {
+min-width: 120px;
+color: #e5e5e5;
+    background-color: rgba(65,20,20,1);
+    outline-style: none;
+    border: none;
+    border-width: 0px;
+    margin: 40px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    border-radius: 0;
+    box-shadow: 0 10px rgba(55,15,15,1);
+    text-shadow: none;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s ease-in-out;    /* copied */
+}
+
+#lock {
+  background-image: url("./icons/lock_white.png");
+  border-radius: 50px 0 0 50px;
+}
+
+#logout {
+  background-image: url("./icons/logout_white.png");
+}
+
+#shutdown {
+  background-image: url("./icons/shutdown_white.png");
+}
+
+#reboot {
+  border-radius: 0 50px 50px 0;
+  background-image: url("./icons/reboot_white.png");
+}
+
+#suspend {
+  background-image: url("./icons/suspend_white.png");
+}
+
+#hibernate {
+  background-image: url("./icons/hibernate_white.png");
+}
+
+button:hover{
+	margin: 0;
+	border-radius: 50px; 
+	transition: all 0.3s cubic-bezier(.55,0.0,.28,1.682);
+	background-size: 40%;
+}
+
+button:hover#lock {
+	border-radius: 50px; 
+	background-color: #4d4b4b;
+	box-shadow: 0 10px rgba(46,45,45,1);
+}
+
+button:hover#logout {
+	background-color: #091461;
+	box-shadow: 0 10px rgba(6,12,56,1);
+}
+
+button:hover#shutdown {
+	background-color: #c01212;
+	box-shadow: 0 10px rgba(105,10,10,1);
+}
+
+button:hover#reboot {
+	border-radius: 50px; 
+	background-color: #218529;
+	box-shadow: 0 10px rgba(17,66,21,1);
+}
+
+button:hover#suspend {
+	background-color: #660f91;
+	box-shadow: 0 10px rgba(60,10,89,1);
+}
+
+button:hover#hibernate {
+	background-color: #c96f0e;
+	box-shadow: 0 10px rgba(110,62,12,1);
+}
+
+

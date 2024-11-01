@@ -1,0 +1,12 @@
+width=40%
+lines=6
+
+hide_scroll = true
+allow_images = true
+image_size = 35
+prompt=Run: 
+normal_window = false
+
+matching=fuzzy
+insensitive=true
+columns=2
