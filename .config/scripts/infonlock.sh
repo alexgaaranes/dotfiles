@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# SCRIPT FOR GETTING BAT LEVEL
+
 # Get the current battery percentage
 battery_percentage=$(cat /sys/class/hwmon/hwmon2/device/capacity)
 

@@ -1,1 +1,0 @@
-scripts/infonlock.sh

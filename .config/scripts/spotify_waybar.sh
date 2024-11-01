@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# SCRIPT FOR WAYBAR SPOTIFY CONTROLLER
+
 # Get Spotify's playback status
 status=$(playerctl --player=spotify status 2>/dev/null)
 
