@@ -1,6 +1,5 @@
 # Fanta Red (Hyprland Dotfiles)
 An **EVA-02** themed dotfiles for **Hyprland**. <br><br>
-*Note: I made this in my first linux machine and first ricing attempt owo*
 
 ### Images<br>
 
