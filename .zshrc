@@ -104,6 +104,7 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias obs="flatpak run com.obsproject.Studio"
 alias wlogout="wlogout -b 6 -m 300"
+alias cmatrix="cmatrix -C red"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(zoxide init --cmd cd zsh)"
@@ -111,3 +112,5 @@ eval "$(zoxide init --cmd cd zsh)"
 eval "$(starship init zsh)"
 
 neofetch
+
+export PATH=$PATH:/home/rednuerocs/.spicetify
