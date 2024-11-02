@@ -8,7 +8,7 @@ An **EVA-02** themed dotfiles for **Hyprland**. <br><br>
 <img src="./images/screenshot1.png" width=750px>
 <br><br>
 with *floating windows*<br>
-<img src="./images/screeenshot2.png" width=750px>
+<img src="./images/screenshot2.png" width=750px>
 <hr>
 
 ## Utils
