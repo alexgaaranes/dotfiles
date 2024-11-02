@@ -272,6 +272,7 @@ label:focus {
 }
 
 #backlight {
+    padding-left: 2px;
 }
 
 #network {
@@ -303,7 +304,7 @@ label:focus {
 }
 
 #tray {
-    padding-right: 7px;
+    padding-right: 2px;
 }
 
 #tray > .passive {
