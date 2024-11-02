@@ -41,5 +41,10 @@ with *floating windows*<br>
 
 ## Credits
 
-- <a href="https://github.com/RUNFUNRUN/dotfiles">dotfiles that inspired this</a>
 - <a href="https://www.wallpaperflare.com/white-cross-digital-illustration-evangelion-neon-genesis-evangelion-wallpaper-zqvt">Wallpaper</a>
+
+### Inspirations
+- https://github.com/RUNFUNRUN/dotfiles
+- https://github.com/Aylur/dotfiles
+- https://github.com/shub39/dotfiles
+
