@@ -13,7 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
 	{ import = "rednuerocs.plugins" },
-	{import = "rednuerocs.plugins.lsp"},
+	-- {import = "rednuerocs.plugins.lsp"},
 }, {
 	install = {
 		colorscheme = { "catppuccin" },
