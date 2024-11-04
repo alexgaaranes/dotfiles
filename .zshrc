@@ -4,6 +4,10 @@
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+# JAVA ENV VAR
+export JAVA_HOME=/opt/jdk-21.0.5
+export PATH=$JAVA_HOME/bin:$PATH
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
