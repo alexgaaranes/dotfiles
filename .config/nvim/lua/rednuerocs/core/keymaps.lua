@@ -21,8 +21,5 @@ keymap.set('n', '<leader>fg', '<cmd>Telescope live_grep<cr>', { desc = 'Telescop
 keymap.set('n', '<leader>fb', '<cmd>Telescope buffers<cr>', { desc = 'Telescope buffers' })
 keymap.set('n', '<leader>fh', '<cmd>Telescope help_tags<cr>', { desc = 'Telescope help tags' })
 
--- Markdown Toggle
-keymap.set("n", "<leader>mp", "<cmd>MarkdownPreviewToggle<cr>", {desc = 'Preview Markdown file'})
-
 -- Comment Toggle
 keymap.set("n", "<leader>//", "<cmd>CommentToggle<cr>", {desc = "Comment Toggle Line(s)"})

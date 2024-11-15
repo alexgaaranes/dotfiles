@@ -5,8 +5,7 @@
 #: kitty has very powerful font management. You can configure
 #: individual font faces and even specify special fonts for particular
 #: characters.
-
-font_family      JetBrainsMonoNerdFont
+# font_family      auto
 # bold_font        auto
 # italic_font      auto
 # bold_italic_font auto
@@ -2598,3 +2597,17 @@ font_size 14.0
 #: }}}
 
 #: }}}
+
+# Include Theme
+include current-theme.conf
+
+# Include Options
+include options.conf
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="CaskaydiaMono Nerd Font"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS
