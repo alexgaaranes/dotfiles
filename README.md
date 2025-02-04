@@ -36,7 +36,7 @@ with *floating windows*<br>
 
 ```
 - Arch Linux
-- zsh + oh-my-zsh
+- zsh + starship
 ```
 
 ## Credits
